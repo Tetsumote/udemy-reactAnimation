@@ -4,7 +4,7 @@ import "./Modal.css";
 
 const modal = (props) => (
   <div className="Modal">
-    <h1>A Modal</h1>
+    <h1>A Modal test</h1>
     <button className="Button" onClick={props.closed}>
       Dismiss
     </button>

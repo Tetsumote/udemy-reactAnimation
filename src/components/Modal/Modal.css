@@ -22,7 +22,23 @@
 .ModalClosed {
   /* opacity: 0;
   transform: translateY(-50vh); */
-  animation: closeModal 0.4s ease-out forwards;
+  animation: closeModal 1s ease-out forwards;
+}
+
+.fade-slide-enter {
+  /* remove after one frame */
+}
+
+.fade-slide-enter-active {
+  animation: openModal 0.4s ease-out forwards;
+}
+
+.fade-slide-exit {
+  /* remove after one frame */
+}
+
+.fade-slide-exit-active {
+  animation: closeModal 1s ease-out forwards;
 }
 
 @keyframes openModal {
